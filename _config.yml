@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: padluo
+subtitle: 分享数据科学家的自我修养
+description: 主要编程语言为 Python，领域涵盖大数据、机器学习、深度学习、爬虫等
+keywords: "Python, 大数据, 机器学习, 深度学习, 爬虫"
+author: padluo
+language: zh-CN
 timezone: ''
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,4 +101,11 @@ deploy:
   type: 'git'
   repo: git@github.com:padluo/padluo.github.io.git
   branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
