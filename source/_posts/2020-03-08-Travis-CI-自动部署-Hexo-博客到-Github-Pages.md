@@ -82,7 +82,7 @@ deploy:
 ---
 微信公众号「padluo」，分享数据科学家的自我修养，既然遇见，不如一起成长。
 
-![数据分析](https://note.youdao.com/yws/public/resource/46c585394e5e7f2eecbc2bf17d3b673e/xmlnote/DB06204302DE4C3DB42E1F92459D407B/15215)
+![数据分析二维码.gif](https://raw.githubusercontent.com/padluo/padluo.github.io/blog-source/source/images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%BA%8C%E7%BB%B4%E7%A0%81.gif)
 
 ---
 读者交流电报群
@@ -92,5 +92,5 @@ deploy:
 ---
 知识星球交流群
 
-![知识星球读者交流群](https://note.youdao.com/yws/public/resource/46c585394e5e7f2eecbc2bf17d3b673e/xmlnote/AE048545987F421E973814768743D953/17454)
+![知识星球读者交流群.jpeg](https://raw.githubusercontent.com/padluo/padluo.github.io/blog-source/source/images/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83%E8%AF%BB%E8%80%85%E4%BA%A4%E6%B5%81%E7%BE%A4.jpeg)
 
