@@ -1,14 +1,13 @@
 ---
-title: 使用 Travis CI 将 Hexo 博客部署到 Github Pages
-date: 2020-03-08 02:42:20
-tags: 
+title: Travis CI 自动部署 Hexo 博客到 Github Pages
+date: 2020-03-08 10:16:51
+tags:
 - Github
 - Markdown
 categories:
-- Github
+- [Github]
+- [Markdown]
 ---
-
-# 使用 Travis CI 将 Hexo 博客部署到 Github Pages
 
 在[如何用Github搭建博客](https://mp.weixin.qq.com/s?__biz=MjM5NzUyNjc2MQ==&mid=2247483886&idx=1&sn=0dcf5d9e511cee5aa499ecdce877cfae&chksm=a6d9ec6891ae657e879da3f07fa7dfc297e6ec885a3fef1b603e32bcec479ee0f6c057e7fcbd&token=1068564806&lang=zh_CN#rd)中，我们基于 Git 仓库建立了一个分支 blog-source 来管理博客的源码，每次在 source/_post 下创建新文章，利用 GitHub 图床，在 source/images 文件夹中存放文章中需要用到的图片，关于 Github 图床的搭建及使用在以后的文章中讲解。写好博客文章后，只需要`git push`把博客源码推送到 Github 的远程仓库，Travis CI 便完成自动部署。
 
@@ -76,10 +75,14 @@ deploy:
 
 前往 `https://<username>.github.io` 查看你的站点是否可以访问。这可能需要一些时间。
 
+> 参考资料
+>
+> 1. <https://hexo.io/zh-cn/docs/github-pages>
+
 ---
 微信公众号「padluo」，分享数据科学家的自我修养，既然遇见，不如一起成长。
 
-![数据分析二维码.gif](https://raw.githubusercontent.com/padluo/padluo.github.io/blog-source/source/images/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%BA%8C%E7%BB%B4%E7%A0%81.gif)
+![数据分析](https://note.youdao.com/yws/public/resource/46c585394e5e7f2eecbc2bf17d3b673e/xmlnote/DB06204302DE4C3DB42E1F92459D407B/15215)
 
 ---
 读者交流电报群
@@ -89,5 +92,5 @@ deploy:
 ---
 知识星球交流群
 
-![知识星球读者交流群.jpeg](https://raw.githubusercontent.com/padluo/padluo.github.io/blog-source/source/images/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83%E8%AF%BB%E8%80%85%E4%BA%A4%E6%B5%81%E7%BE%A4.jpeg)
+![知识星球读者交流群](https://note.youdao.com/yws/public/resource/46c585394e5e7f2eecbc2bf17d3b673e/xmlnote/AE048545987F421E973814768743D953/17454)
 
